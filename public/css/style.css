@@ -1,3 +1,29 @@
-body {
-  background: lightblue;
+.menu_ul {
+  background-color: pink;
+  font-size: 30px;
+  left: 0;
+  right: 0;
+  width: auto;
+
+}
+.menu_il {
+  display: inline-block;
+}
+.intro {
+  color: blue;
+}
+
+.part1 {
+  width: 80vw;
+  float: left;
+  border-style: solid;
+  border-width: 5px
+  display: inline-block;
+}
+.imgs {
+  width: 100vw;
+}
+
+.imgs img {
+  width: 30vw;
 }

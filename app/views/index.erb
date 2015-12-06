@@ -3,9 +3,55 @@
 <head>
   <meta charset="utf-8">
   <link href="<%= url("/css/style.css")%>" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <script src="<%= url("/js/main.js")%>" type="text/javascript" > </script>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <header>
+      <nav>
+     <ul class="menu_ul">
+       <li class="menu_il"><a href="file:///Users/macbookpro/Documents/Challenge1/index.html">Home</a></li>
+       <li class="menu_il"><a href="https://en.wikipedia.org/wiki/List_of_hobbies" target="_blank">Hobby</a></li>
+       <li class="menu_il"><a href="http://www.oddee.com/item_96986.aspx" target="_blank">Photos</a></li>
+       <li class="menu_il"><a href="https://www.youtube.com/watch?v=ji77UYMWLU4" target="_blank">Videos</a></li>
+     </ul>
+   </nav>
+ </header>
+   <article>
+       <h1 class="intro">Hi! This is a webpage about... ME!</h1>
+      <section class="part1">
+        <h2>This is section about my HOBBIES</h2>
+          <h3>My hobbies include juggling, unicycle riding and firebreathing - but not all at the same time</h3>
+      </section>
+      <section class="part1">
+        <p>
+          <h3>This section is about my PHOTOS... and is in smaller sized text of h3</h3>
+        </p>
+        <p>
+          <h4>The number of photos I have at the moment is smaller even than this text</h4>
+        </p>
+      </section>
+      <section class="part1">
+        <p>
+          <h5>There are some funny photos <a href="http://www.oddee.com/item_96986.aspx" target="_blank">here</a></h5>
+        </p>
+      </section>
+      <section class="part1">
+        <p>
+          <h6>My videos are so terrible this is the smallest text I can do!</h6>
+        </p>
+        <p>
+          Blah blah blah!
+        </p>
+      </section>
+   </article>
+ <article class="imgs">
+   <div class="row">
+     <div class="col-md-4"><a href="https://en.wikipedia.org/wiki/Fire_breathing"> <img src="http://www.memoryelixir.com/stuntworkshop/images/fire3.jpg" alt="picture of my hobbies" /></a></div>
+     <div class="col-md-4"><img src="http://www.planwallpaper.com/static/images/abstract-colourful-cool-wallpapers-55ec7905a6a4f.jpg" alt="picture of my photos" /></div>
+     <div class="col-md-4"><img src="http://www.urdogs.com/wp-content/uploads/2015/06/169.jpg" alt="picture of my videos" />
+</div>
+   </div>
+</article>
 </body>
 </html>
